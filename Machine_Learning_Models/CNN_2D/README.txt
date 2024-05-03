@@ -11,3 +11,16 @@ Steps to run the script
 	1. Run the command 'python Treon_to_CNNmodel_prediction.py'
 	3. The prediction is shown in the terminal and it will move on and start collecting the next dataset
 
+Enviroments - 
+CNN_2D - 
+	visualkeras 0.0.2
+	tensorboard 2.15.12
+	tensorflow 2.15.0
+	keras 2.15.0
+	scikit-learn 1.2.2
+	os-sys 2.1.4
+	python-csv 0.0.13
+	jsons 1.6.3
+	matplotlib 3.7.1
+	seaborn 0.13.1
+	DateTime 5.5
