@@ -1,0 +1,3 @@
+Date_time,Sensor_id,Temperature,Battery_voltage,X_P2P,X_RMS,X_Z2P,X_Kurtosis,Y_P2P,Y_RMS,Y_Z2P,Y_Kurtosis,Z_P2P,Z_RMS,Z_Z2P,Z_Kurtosis,FFT_X,FFT_Y,FFT_Z
+2024-04-02 17:05:25,13e5a6f7,32.79,,5.0,0.95,2.0,2.29,6.0,1.2,3.0,2.06,4.0,0.79,2.0,1.83,b'',b'',b''
+2024-04-02 17:05:49,7f5e07aa,36.97,,12.0,2.5,6.0,2.47,2.0,0.29,1.0,2.96,3.0,0.44,1.0,2.59,b'',b'',b''

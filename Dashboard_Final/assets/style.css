@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Digital+7');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* Background colour */
+.bg-colour {
+    background-color: #111525;
+}
+
+/* Text colour */
+.text-colour {
+    color: #F5F5F5;
+}
+
+/* sections background colour */
+.card-bg-colour {
+    background-color: #1a253f;
+}
+
+/* font and display for RMS, kurtosis, P2P, Z2P values */
+.digital-font {
+    font-family: 'Digital-7', monospace; /* Use the appropriate font-family if you find a suitable font */
+    background: #111525;
+    color: #2391C0;
+    font-size: 2em;
+    padding: 10px;
+    border: 2px solid #2391C0;
+    border-radius: 5px;
+    display: inline-block;
+    text-Align: center;
+    margin-left: 35px;
+    width: 50%;
+}
+
+/* font for headers */
+.header-font {
+    font-family: 'Lato', monospace;
+}
+
+/* Default tab style for inactive tabs */
+.tab-default {
+    background-color: #1a253f !important;
+    border-Bottom: 2px solid #2391C0 !important;
+    border-Top: 2px solid #1a253f  !important;
+    border-Left: 2px solid #1a253f !important;
+    border-Right: 2px solid #1a253f !important;
+    color: white !important;
+    font-Size: 24px !important;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Selected tab style for the active tab */
+.tab-selected {
+    border-Top: 2px solid #2391C0 !important;
+    border-Right: 2px solid #2391C0 !important;
+    border-Left: 2px solid #2391C0 !important;
+    background-color: #2391C0 !important;
+    color: white !important;
+    font-Size: 24px !important;
+}
+
+/* Hover state for the tab that is not selected */
+.tab-default:not(.tab-selected):hover {
+    background-color: #30678D !important; /* A lighter blue for hover */
+    border-Bottom: 2px solid #30678D !important;
+    border-Top: 2px solid #30678D !important;
+    border-Left: 2px solid #30678D !important;
+    border-Right: 2px solid #30678D !important;
+    color: white !important;
+    font-Size: 24px !important;
+}
+
+/* create battery symbol */
+.battery-symbol {
+    width: 50px;  /* Adjust size as needed */
+    height: 20px;  /* Adjust size as needed */
+    border: 2px solid #1A702E;  /* Battery outline */
+    position: relative;
+    display: inline-block;
+}
+
+/* create battery filling */
+.battery-filling {
+    height: 100%;
+    width: 100%;  /* Initial width, will be dynamically updated */
+    background-color: #28A745;  /* Initial color, will be dynamically updated */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* create battery symbol end */
+.battery-symbol::after {
+    content: '';
+    position: absolute;
+    top: 4px;  /* Center the tip vertically */
+    right: -6px;  /* Adjust based on the border size */
+    width: 6px;  /* Adjust tip size as needed */
+    height: 12px;  /* Adjust to be smaller than the battery height */
+    background: #1A702E;  /* Tip color */
+}
+
+/* battery placement */
+.battery-container {
+    display: flex;
+    align-items: center;  /* Align items vertically */
+}
+
+/* battery percentage placement */
+.battery-percentage {
+    margin-left: 10px;  /* Adjust spacing between the symbol and text */
+    color: #F5F5F5;  /* Text color, adjust as needed */
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+/* styles.css in the 'assets' folder */
+.button-normal-play {
+    background-color: #28A745;
+    color: #F5F5F5;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 2px 5px #1A702E;
+    margin-right: 20px;
+}
+
+.button-clicked-play {
+    background-color: #28A745;
+    color: #F5F5F5;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px #1A702E;
+    transform: translateY(4px);
+    margin-right: 20px;
+}
+
+/* styles.css in the 'assets' folder */
+.button-normal-stop {
+    background-color: #a72828;
+    color: #F5F5F5;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 2px 5px #701a1a;
+    margin-right: 20px;
+}
+
+.button-clicked-stop {
+    background-color: #a72828;
+    color: #F5F5F5;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px #701a1a;
+    transform: translateY(4px);
+    margin-right: 20px;
+}
