@@ -20,4 +20,8 @@ DATA_COLLECTION - It stores the collected data from different fault scenarios.
 
 Data_Extraction -  It stores the Python files for continuous data extraction and processing.
 
+Dashboard_FInal - It stores the python files to run the dashboard integrated with our data extraction files and our CNN model.
+
 Machine_Learning_Models - It stores the Python notebooks for our CNN and Random Forrest model as well as the developed model and Python files to use the developed models.
+
+
