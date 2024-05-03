@@ -13,3 +13,15 @@ Steps to run the script
 	1. Run the command 'python Treon_export_Mac.py' or 'python Treon_export_Rest.py'
 	3. The data will be collected in the foler 'SETXX_BCXXX' where xx represents Set number and brake current given and the script will start collecting the next dataset with automatically updated set number.
 
+Enviroment - 
+	paho-mqtt 1.6.1
+	DateTime 5.5
+	jsons 1.6.3
+	pymysql 1.1.0
+	threaded 4.2.0
+	matplotlib 3.7.1
+	python-csv 0.0.13
+	numpy 1.25.2
+	tensorflow 2.15.0
+	os-sys 2.1.4
+	jsons 1.6.3
