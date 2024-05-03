@@ -24,3 +24,17 @@ CNN_2D -
 	matplotlib 3.7.1
 	seaborn 0.13.1
 	DateTime 5.5
+	numpy 1.25.2
+
+Treon-to-mode-prediction - 
+	paho-mqtt 1.6.1
+	DateTime 5.5
+	jsons 1.6.3
+	pymysql 1.1.0
+	threaded 4.2.0
+	matplotlib 3.7.1
+	python-csv 0.0.13
+	numpy 1.25.2
+	tensorflow 2.15.0
+	os-sys 2.1.4
+	jsons 1.6.3
