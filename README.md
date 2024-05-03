@@ -16,7 +16,7 @@ With these two technologies, machinemonitor can replace the AnomAlert system and
 
 Folders - 
 
-DATA_COLLECTION - It stores the collected data from different fault scenarios.
+DATA_COLLECTION - It stores the collected data from different fault scenarios as the sub-folder name suggests.
 
 Data_Extraction -  It stores the Python files for continuous data extraction and processing.
 
